@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+.container{
+	width:970px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (max-width: 991px) {
+.for-container{
+	margin-top:30px;
+	}
+
+}
+ 
+@media (min-width: 768px) and (max-width:991px) {
+
+.navbar-nav li a{
+	font-size:11px;
+	margin-left:8px;
+	}
+
+
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+ 
+@media (min-width: 768px){
+.navbar-collapse{
+	padding:0;
+	}
+.carousel-inner > .item .img-thumbnail{
+	float: left;
+    margin-right: 30px;
+	}
+.block-title{
+	background:url("../images/line-bg.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+	}
+.block-title span{
+	background:#FFF;
+	display: inline-block;
+	}
+.block-title span.text{
+	padding: 0 12px;
+	}
+.block-title span.title-left{
+	background: url("../images/title-left-bg.png") no-repeat scroll left center #fff;
+    height: 25px;
+    margin: 0 -12px 0 0;
+    width: 27px;
+	}
+.block-title span.title-right{
+	background: url("../images/title-right-bg.png") no-repeat scroll left center #fff;
+    height: 25px;
+	margin: 0 0 0 -12px;
+	width: 27px;
+	}
+.nav-tabs li:first-child a{
+	margin-right: 76px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+.navbar-nav{
+	margin:0;
+	}
+.navbar-nav li a{
+	margin:0;
+	}
+.navbar-collapse{
+	border-top:solid 2px #993333;
+	}
+
+.row > .col-sm-1,
+.row > .col-sm-2,
+.row > .col-sm-3,
+.row > .col-sm-4,
+.row > .col-sm-5,
+.row > .col-sm-6,
+.row > .col-sm-7,
+.row > .col-sm-8,
+.row > .col-sm-9,
+.row > .col-sm-10,
+.row > .col-sm-11,
+.row > .col-sm-12{
+	margin-bottom:30px;
+	}
+.row > .col-sm-1 .img-responsive,
+.row > .col-sm-2 .img-responsive,
+.row > .col-sm-3 .img-responsive,
+.row > .col-sm-4 .img-responsive,
+.row > .col-sm-5 .img-responsive,
+.row > .col-sm-6 .img-responsive,
+.row > .col-sm-7 .img-responsive,
+.row > .col-sm-8 .img-responsive,
+.row > .col-sm-9 .img-responsive,
+.row > .col-sm-10 .img-responsive,
+.row > .col-sm-11 .img-responsive,
+.row > .col-sm-12 .img-responsive{
+	margin:auto;
+	}
+.row > .col-sm-1 .img-thumbnail,
+.row > .col-sm-2 .img-thumbnail,
+.row > .col-sm-3 .img-thumbnail,
+.row > .col-sm-4 .img-thumbnail,
+.row > .col-sm-5 .img-thumbnail,
+.row > .col-sm-6 .img-thumbnail,
+.row > .col-sm-7 .img-thumbnail,
+.row > .col-sm-8 .img-thumbnail,
+.row > .col-sm-9 .img-thumbnail,
+.row > .col-sm-10 .img-thumbnail,
+.row > .col-sm-11 .img-thumbnail,
+.row > .col-sm-12 .img-thumbnail{
+	display:block;
+	margin:auto;
+	}
+.row > .col-sm-6:last-child{
+	margin-bottom:0;
+	}
+	
+.see-photos{
+	margin:auto;
+	}
+	
+#Previous.carousel{
+	padding:0 40px;
+	}
+
+.carousel-inner > .item .img-thumbnail{
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.carousel-caption h3{
+	text-align:center;
+	}
+
+.for-container{
+	width:100%;
+	}
+.nav-tabs{
+	text-align:center;
+	}
+.nav-tabs li{
+	float:none;
+	display:inline-block;
+	margin:0 5px;
+	}
+.nav-tabs li a{
+	margin:0;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+	}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	margin-right:0;
+	padding-left:20px;
+	padding-right:20px;
+	}
+}
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+.logo,
+.contact-info{
+	text-align:center;
+	width:100%;
+	}
+.contact-info{
+	margin-top:10px;
+	}
+.latest-posts .row{}
+.latest-posts .col-xs-5{
+	margin-bottom:20px;
+	width:100%;
+	}
+.latest-posts .col-xs-7{
+	width:100%;
+	}
+
+.pagination > li{
+	margin:15px 0;
+	}
+.pagination > li:first-child,
+.pagination > li:last-child{
+	display:block;
+	}
+
+
+}

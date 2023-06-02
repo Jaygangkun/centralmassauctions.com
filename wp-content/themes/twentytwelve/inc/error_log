@@ -1,0 +1,4 @@
+[09-Aug-2020 02:13:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/wawat/public_html/wp-content/themes/twentytwelve/inc/custom-header.php:48
+Stack trace:
+#0 {main}
+  thrown in /home2/wawat/public_html/wp-content/themes/twentytwelve/inc/custom-header.php on line 48
